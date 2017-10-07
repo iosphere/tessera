@@ -12,5 +12,5 @@ RUN npm install -g \
         @mapbox/tilelive-vector@3.10.1 \
         tilelive-tmsource@0.6.1 \
         tilelive-xray@0.3.0
-CMD ["/usr/bin/tessera", "tmsource:///projects/openmaptiles.tm2source"]
+ENTRYPOINT ["/usr/bin/tessera", "tmsource:///projects/openmaptiles.tm2source"]
 
